@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero {
+    background: #111ce7;
+    color: white;
+    padding: 50px 20px;
+}
+.konten {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Konten {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Konten:hover {
+    transform: scale(1.05);
+}
+
+.Konten img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+
+.Konten video {
+    height: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+.content {
+    padding: 20px;
+}
+.content img {
+    width: 50%;
+    height: 50%;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #18251a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: rgb(12, 80, 139);
+    height: 100px;
+}
+footer img {
+    height: 10%;
+    width: 50px;
+}
